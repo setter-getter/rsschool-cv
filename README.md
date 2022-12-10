@@ -1,1 +1,1 @@
-https://setter-getter.github.io/rsschool-cv/cv
+https://setter-getter.github.io/rsschool-cv/
