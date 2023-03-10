@@ -29,16 +29,34 @@ ___
 
 ## Code Examples
 
+```JavaScript
+function getDecimal(n){
+ if (Number.isInteger(n)) {
+          return 0;
+     }
+     else {
+          let arr = String(n).split('.');
+          let str_numb = '0.' + arr[arr.length - 1];
+          let num = Number(str_numb);
+          return num;
+     }
+}
 ```
+```TypeScript
+let counter = 1
 
+const refresh = () => {
+  ReactDOM.createRoot(document.getElementById('root')).render
+    (
+      <App counter={counter} />
+    )
+}
 
+setInterval(() => {
+  refresh()
+  counter += 1
+}, 1000)
 ```
-
-
-___
-
-## Education
-
 
 ___
 
