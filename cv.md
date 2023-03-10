@@ -3,9 +3,11 @@
 ___
 ## CONTACT ME
 
-:telephone_receiver: +12345678901
+* **Phone:** +12345678901
 
-:email: tets@test.ru
+* **Email:** tets@test.ru
+
+* **Telegram:** @test
 
 ___
 
