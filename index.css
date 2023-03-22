@@ -1,6 +1,6 @@
-/* .header {
-    position: absolute;
-} */
+.header {
+   background-color: rgb(214, 214, 214);
+}
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,4 +21,8 @@ h1 {
 .content-wrapper{
     max-width: 960px;
     margin-left: 3rem;
+}
+
+.line {
+    border-bottom: 1px solid rgb(158, 155, 155);
 }
