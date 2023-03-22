@@ -6,74 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
-    <h1>Dmitry Bondarenko</h1>
-    <h3>Frontend Developer</h3>
-    <div class="contact">
-        <h3>CONTACT ME</h3>
-        <ul>
-            <li>Phone: +12345678901</li>
-            <li>Email: tets@test.ru</li>
-            <li>Telegram: @test</li>
-        </ul>
+    <div class="header">
+        <h1>Dmitry Bondarenko</h1>
+        <h3 class="developer">Frontend Developer</h3>
     </div>
-    <div class="myself">
-        <h3>About Myself</h3>
-        <p class="myself-description">
-            I am a novice front end developer with a strong knowledge of the basics of web development. I am proficient
-            in JavaScript, CSS and HTML, and am in the process of learning React.
-            I am passionate about creating interactive and dynamic web applications and strive to develop in this area.
-        </p>
-    </div>
-    <div class="skills">
-        <h3>Skills</h3>
-        <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript Basic</li>
-            <li>React - TypeScript</li>
-            <li>Python Basic</li>
-            <li>Git</li>
-        </ul>
-    </div>
-    <div class="code_examples">
-        <h3>Code Examples</h3>
-        <code>
-            function getDecimal(n){
-                if (Number.isInteger(n)) {
-                         return 0;
-                    }
-                    else {
-                         let arr = String(n).split('.');
-                         let str_numb = '0.' + arr[arr.length - 1];
-                         let num = Number(str_numb);
-                         return num;
-                    }
-               }
-        </code>
-        <code>
-            let counter = 1
+    <div class="content-wrapper">
+        <div class="contact">
+            <h3>CONTACT ME</h3>
+            <ul>
+                <li>Phone: +12345678901</li>
+                <li>Email: tets@test.ru</li>
+                <li>Telegram: @test</li>
+            </ul>
+        </div>
+        <div class="myself">
+            <h3>About Myself</h3>
+            <p class="myself-description">
+                I am a novice front end developer with a strong knowledge of the basics of web development. I am
+                proficient
+                in JavaScript, CSS and HTML, and am in the process of learning React.
+                I am passionate about creating interactive and dynamic web applications and strive to develop in this
+                area.
+            </p>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basic</li>
+                <li>React - TypeScript</li>
+                <li>Python Basic</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="code_examples-1">
+            <h3>Code Examples</h3>
+            <p>
+                <code>
+                    function getDecimal(n){
+                        if (Number.isInteger(n)) {
+                                 return 0;
+                            }
+                            else {
+                                 let arr = String(n).split('.');
+                                 let str_numb = '0.' + arr[arr.length - 1];
+                                 let num = Number(str_numb);
+                                 return num;
+                            }
+                       }
+                </code>
+            </p>
 
-            const refresh = () => {
-              ReactDOM.createRoot(document.getElementById('root')).render
-                (
-                  <App counter={counter} />
-                )
-            }
-            
-            setInterval(() => {
-              refresh()
-              counter += 1
-            }, 1000)
-        </code>
-    </div>
-    <div class="languages">
-        <h3>Languages</h3>
-        <ul>
-            <li>Russian - native speaker</li>
-            <li>English - A1 (A2 in process…)</li>
-        </ul>
+            <p>
+                <code class="code_examples-2">
+                    let counter = 1
+        
+                    const refresh = () => {
+                      ReactDOM.createRoot(document.getElementById('root')).render
+                        (
+                          <App counter={counter} />
+                        )
+                    }
+                    
+                    setInterval(() => {
+                      refresh()
+                      counter += 1
+                    }, 1000)
+                </code>
+            </p>
+        </div>
+        <div class="languages">
+            <h3>Languages</h3>
+            <ul>
+                <li>Russian - native speaker</li>
+                <li>English - A1 (A2 in process…)</li>
+            </ul>
+        </div>
     </div>
 </body>
 
